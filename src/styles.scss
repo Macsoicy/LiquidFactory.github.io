@@ -24,8 +24,8 @@
     /* backgorund color */
     --bg-white: hsla(0, 0%, 100%, 1);
     --bg-gainsboro: hsla(154, 10%, 86%, 1);
-    --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
-    --bg-orange-crayola: hsla(18, 97%, 62%, 1);
+    --bg-wild-blue-yonder: rgb(18, 56, 194);
+    --bg-orange-crayola: hsla(1108, 41%, 69%);
     --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
   
     /* text color */
@@ -300,7 +300,7 @@
   
   .header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   
